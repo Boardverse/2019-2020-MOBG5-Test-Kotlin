@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment
+        android:name="g44422.mobg5.boardverse.ui.carousel.CarouselFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:name="g44422.mobg5.boardverse.ui.minGame.MinGameFragment"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TODO0">
+        </fragment>
+        <fragment
+            android:name="g44422.mobg5.boardverse.ui.minGame.MinGameFragment"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TODO1">
+        </fragment>
+        <fragment
+            android:name="g44422.mobg5.boardverse.ui.minGame.MinGameFragment"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TODO2">
+        </fragment>
+        <fragment
+            android:name="g44422.mobg5.boardverse.ui.minGame.MinGameFragment"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TODO3">
+        </fragment>
+    </fragment>
+</androidx.constraintlayout.widget.ConstraintLayout>
